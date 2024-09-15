@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.HeadImage img{
+    width: 100%;
+}
+main{
+    border: 1px solid #808080;
+    padding: 20px 50px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+
+main span {
+    background: rgb(255 173 173);
+    border: 2px solid rgb(232 34 34);
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 20px;
+    display: none;
+}
+
+.portalVisa{
+    display: flex;
+    margin-top: 20px;
+}
+
+.portalvisaIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #4064AE;
+    color: white;
+    margin-right: 20px;
+}
+
+
+.portalvisaDescription h1{
+    color: #4064AE;
+    font-size: 20px;
+    font-family: serif;
+}
+
+hr{
+    width: 440px;
+}
+
+.visaId{
+    padding: 40px 0px;
+    width: 100%;
+}
+.visaId input {
+    border: 1px solid #c3c3c3;
+    padding: 10px;
+    outline: none;
+    display: block;
+    color: #4064AE;
+    font-size: 16px;
+}
+
+.visaId input:focus{
+    border: 1px solid #4064AE;
+}
+
+.btn{
+    text-align: center;
+}
+.btn button{
+    background-color: #58972a;
+    color: white;
+    padding: 12px 30px;
+    border: 1px solid green;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    border: 1px solid #6FAC44;
+    background: #6FAC44;
+}
+.footerInfo{
+    background: linear-gradient(45deg, #130C42, #1F3082, #130C42);
+    color: white;
+    padding: 15px 10px;
+    margin-top: 50px;
+    margin-bottom: 200px; 
+}

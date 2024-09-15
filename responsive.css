@@ -1,0 +1,25 @@
+@media(max-width:844px){
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media(max-width:540px){
+
+    .portalvisaIcon{
+        display: none;
+    }
+    .visaId input{
+        width: 100%;
+    }
+    .btn{
+        text-align: right;
+    }
+    hr{
+        width: 100%;
+    }
+    .footerInfo span{
+        font-size: 12px;
+    }
+}

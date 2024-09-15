@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewDelhi Portal visa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="HeadImage">
+                <img src="images/header.jpg" alt="image">
+            </div>
+        </div>
+    </header>
+        <div class="container">
+            <main>
+                <span id="errorMessage"></span>
+                <div class="portalVisa">
+                 <div class="portalvisaIcon">
+                    <i class="fa-brands fa-cc-visa"></i>
+                 </div>
+                 <div class="portalvisaDescription">
+                     <h1>Portal of Serbia e-Visa</h1>
+                     <hr>
+                     <div class="visaId">
+                        <label for="visa">e-Visa ID</label>
+                        <input required type="password" id="visa">
+                   </div>
+                    </div>
+                </div>
+
+                <div class="btn">
+                 <button onclick="submitBtn()">Confirm <i class="fa-solid fa-caret-right"></i></button>
+                </div>
+            </main>
+           </div>
+    <footer>
+        <div class="container">
+            <div class="footerInfo">
+                <span> © 2024 Ministry of Foreign Affairs of Serbia. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
